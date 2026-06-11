@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pagbank-mcp",
+  "title": "PagBank MCP",
+  "description": "Connect your PagBank account to AI via Brazil's Open Finance: balances, statements, cards, investmen",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pagbank-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pagbank"
+    }
+  ]
+}
